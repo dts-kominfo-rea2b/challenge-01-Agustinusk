@@ -13,11 +13,11 @@ firstUser.favoriteColor.add("White");
 firstUser.favoriteColor.add("Purple");
 firstUser.isHavePet = true;
 firstUser.education = [
-new Map([['name', 'SD 01'], ['city', 'Jakarta'], ['graduate', '2016']]),
-new Map([['name', 'SMP 02'], ['city', 'Jakarta'], ['graduate', '2019']]),
-new Map([['name', 'SMA 03'], ['city', 'Tangerang']])
+      { name: 'SD 01',  city: 'Jakarta', graduate: 2016 },
+      { name: 'SMP 02', city: 'Jakarta', graduate: 2019 },
+      { name: 'SMA 03', city: 'Tangerang' },
 ]
-firstUser.favoriteRestaurant =  new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
+firstUser.favoriteRestaurant = new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
 
 const secondUser = {};
 secondUser.name = "Wendy";
@@ -31,12 +31,13 @@ secondUser.favoriteColor.add("Gray");
 secondUser.isHavePet = false;
 secondUser.education = [
 
-        new Map([['name', 'SD 02'], ['city', 'Jakarta'], ['graduate', '2010']]),
-        new Map([['name', 'SMP 03'], ['city', 'Bogor'], ['graduate', '2013']]),
-        new Map([['name', 'SMA 01'], ['city', 'Surabaya'], ['graduate', '2016']]),
-        new Map([['name', 'Universitas Maju'], ['city', 'Tangerang']])
+    { name: 'SD 02', city: 'Jakarta', graduate: 2010 },
+    { name: 'SMP 03', city: 'Bogor', graduate: 2013 },
+    { name: 'SMA 01', city: 'Surabaya', graduate: 2016 },
+    { name: 'Universitas Maju', city: 'Tangerang' },
 ]
- secondUser.favoriteRestaurant = new Set(['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Pancake', 'Eggy'])
+
+    secondUser.favoriteRestaurant = new Set(['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Pancake', 'Eggy'])
 
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
